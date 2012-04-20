@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'mixed_paint_murals');
+define('DB_NAME', 'davidcob_murals');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'davidcob_dba');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'sD.vH~&pTJ$Q');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -80,9 +80,9 @@ define('WPLANG', '');
  */
 /* MMP TODO remove for prod */
 define('WP_DEBUG', false);
-define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_LOG', false);
 define('WP_DEBUG_DISPLAY', false);
-@ini_set('log_errors','On');
+@ini_set('log_errors','Off');
 @ini_set('display_errors','Off');
 
 /* That's all, stop editing! Happy blogging. */
