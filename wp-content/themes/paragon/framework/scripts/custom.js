@@ -202,3 +202,15 @@ function alignPagination(pagination_wrapper, left_margin_class) {
 		jQuery(pagination_wrapper + " .next_link").addClass(left_margin_class);
 	}
 }
+
+//////////////////////////////////////////////////
+// Window load event, which is after the document load event
+//////////////////////////////////////////////////
+jQuery(window).load(function() {
+	jQuery('.project-image img').each(function(index) {
+		jQuery(this).show('slow');
+	});
+	
+	jQuery('.project-images').css("background", "rgba(245,245,245,0.5)");  
+	jQuery('.large-project-image').css("background", "");  
+});

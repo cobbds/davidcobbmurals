@@ -395,6 +395,7 @@ ul#menu-menu li a:hover {
 
 .large-project-image {
 	min-height: 479px;
+	background: url(images/loading.gif) no-repeat center center;
 }
 
 .project-large-images p {
@@ -414,7 +415,7 @@ ul#menu-menu li a:hover {
 	width: 300px;
 	height: 400px;
 	border-radius: 10px;
-	background: rgba(245,245,245,0.5);
+	background: rgba(245,245,245,0.5) url(images/loading.gif) no-repeat center center;
 	border: 0px #e35101 solid;
 	padding: 5px;
 	/*overflow: auto;
@@ -430,6 +431,7 @@ ul#menu-menu li a:hover {
 }
 
 .project-image img {
+	display: none;
 	width: 76px;
 	height: 76px;
 	padding: 5px;
@@ -493,6 +495,7 @@ ul#menu-menu li a:hover {
 	float: left;
 	list-style-type: none;
 	margin-left: 32px;
+	background: url(images/loading.gif) no-repeat center center;
 }
 
 .related-projects-content img {
